@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "9746162b-0be0-4209-a891-72904fe11b92",
+		"name": "productsapp-automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43665366",
+		"_collection_link": "https://calvinhuynh-7388444.postman.co/workspace/Calvin-Huynh's-Workspace~88989b4f-6484-4bf3-8328-0e5296cb97c1/collection/43665366-9746162b-0be0-4209-a891-72904fe11b92?action=share&source=collection_link&creator=43665366"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
