@@ -92,7 +92,7 @@
 							"var jsonData = JSON.parse(responseBody);\r",
 							"\r",
 							"pm.test(\"Single product Id should be 1\", () => {\r",
-							"    pm.expect(jsonData.Id).to.equal(1);\r",
+							"    pm.expect(jsonData.Id).to.equal(1); \r",
 							"});\r",
 							"pm.test(\"Single product Name should be 'Tomato Soup'\", () => {\r",
 							"    pm.expect(jsonData.Name).to.equal(\"Tomato Soup\");\r",
