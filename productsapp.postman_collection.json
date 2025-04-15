@@ -19,14 +19,14 @@
 							"pm.test(\"Product [0] ID should be 1\", () => {\r",
 							"    pm.expect(jsonData[0].Id).to.equal(1);\r",
 							"});\r",
-							"pm.test(\"Product [0] Name should be 'Tomato Soup'\", () => {\r",
-							"    pm.expect(jsonData[0].Name).to.equal(\"Tomato Soup\");\r",
+							"pm.test(\"Product [0] Name should be 'Potato Soup'\", () => {\r",
+							"    pm.expect(jsonData[0].Name).to.equal(\"Potato Soup\");\r",
 							"});\r",
-							"pm.test(\"Product [0] Category should be 'Groceries'\", () => {\r",
-							"    pm.expect(jsonData[0].Category).to.equal(\"Groceries\");\r",
+							"pm.test(\"Product [0] Category should be 'Schmoceries'\", () => {\r",
+							"    pm.expect(jsonData[0].Category).to.equal(\"Schmoceries\");\r",
 							"});\r",
-							"pm.test(\"Product [0] Price should be 1.0\", () => {\r",
-							"    pm.expect(jsonData[0].Price).to.equal(1.0);\r",
+							"pm.test(\"Product [0] Price should be 42.0\", () => {\r",
+							"    pm.expect(jsonData[0].Price).to.equal(42.0);\r",
 							"});\r",
 							"\r",
 							"pm.test(\"Product [1] ID should be 2\", () => {\r",
@@ -58,6 +58,16 @@
 							"pm.test(\"Response should be 200 OK\", () => {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -94,14 +104,14 @@
 							"pm.test(\"Single product Id should be 1\", () => {\r",
 							"    pm.expect(jsonData.Id).to.equal(1); \r",
 							"});\r",
-							"pm.test(\"Single product Name should be 'Tomato Soup'\", () => {\r",
-							"    pm.expect(jsonData.Name).to.equal(\"Tomato Soup\");\r",
+							"pm.test(\"Single product Name should be 'Potato Soup'\", () => {\r",
+							"    pm.expect(jsonData.Name).to.equal(\"Potato Soup\");\r",
 							"});\r",
-							"pm.test(\"Single product Category should be 'Groceries'\", () => {\r",
-							"    pm.expect(jsonData.Category).to.equal(\"Groceries\");\r",
+							"pm.test(\"Single product Category should be 'Schmoceries'\", () => {\r",
+							"    pm.expect(jsonData.Category).to.equal(\"Schmoceries\");\r",
 							"});\r",
-							"pm.test(\"Single product Price should be 1.0\", () => {\r",
-							"    pm.expect(jsonData.Price).to.equal(1.0);\r",
+							"pm.test(\"Single product Price should be 42.0\", () => {\r",
+							"    pm.expect(jsonData.Price).to.equal(42.0);\r",
 							"});\r",
 							"\r",
 							"pm.test(\"Response should be 200 OK\", () => {\r",
